@@ -5,6 +5,7 @@ import React from "react";
 // import Select from "./components/navbar/Select";
 // import MuiRadioButton from "./components/navbar/MuiRadioButton";
 // import MuiCheckbox from "./components/navbar/MuiCheckbox";
+import MuiSwitch from "./components/navbar/MuiSwitch";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       {/* <Select /> */}
       {/* <MuiRadioButton /> */}
       {/* <MuiCheckbox /> */}
+      <MuiSwitch />
     </div>
   );
 };
