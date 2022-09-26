@@ -3,7 +3,8 @@ import React from "react";
 // import Why from "./components/navbar/Navbar";
 // import TextField from "./components/navbar/TextField";
 // import Select from "./components/navbar/Select";
-import MuiRadioButton from "./components/navbar/MuiRadioButton";
+// import MuiRadioButton from "./components/navbar/MuiRadioButton";
+// import MuiCheckbox from "./components/navbar/MuiCheckbox";
 
 const App = () => {
   return (
@@ -11,7 +12,8 @@ const App = () => {
       {/* <Why /> */}
       {/* <TextField /> */}
       {/* <Select /> */}
-      <MuiRadioButton />
+      {/* <MuiRadioButton /> */}
+      {/* <MuiCheckbox /> */}
     </div>
   );
 };
