@@ -1,5 +1,4 @@
 import React from "react";
-import MuiAutoComplete from "./components/navbar/MuiAutoComplete";
 
 // import Why from "./components/navbar/Navbar";
 // import TextField from "./components/navbar/TextField";
@@ -8,6 +7,8 @@ import MuiAutoComplete from "./components/navbar/MuiAutoComplete";
 // import MuiCheckbox from "./components/navbar/MuiCheckbox";
 // import MuiSwitch from "./components/navbar/MuiSwitch";
 // import MuiRating from "./components/navbar/MuiRating";
+// import MuiAutoComplete from "./components/navbar/MuiAutoComplete";
+import MuiBox from "./components/navbar/MuiBox";
 
 const App = () => {
   return (
@@ -19,7 +20,8 @@ const App = () => {
       {/* <MuiCheckbox /> */}
       {/* <MuiSwitch /> */}
       {/* <MuiRating /> */}
-      <MuiAutoComplete />
+      {/* <MuiAutoComplete /> */}
+      <MuiBox />
     </div>
   );
 };
