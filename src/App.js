@@ -1,4 +1,5 @@
 import React from "react";
+// import MuiPaper from "./components/MuiPaper";
 
 // import Why from "./components/navbar/Navbar";
 // import TextField from "./components/navbar/TextField";
@@ -22,6 +23,7 @@ const App = () => {
       {/* <MuiRating /> */}
       {/* <MuiAutoComplete /> */}
       <MuiBox />
+      {/* <MuiPaper /> */}
     </div>
   );
 };
