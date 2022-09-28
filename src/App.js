@@ -1,5 +1,5 @@
 import React from "react";
-// import MuiPaper from "./components/MuiPaper";
+import "./App.css";
 
 // import Why from "./components/navbar/Navbar";
 // import TextField from "./components/navbar/TextField";
@@ -9,7 +9,8 @@ import React from "react";
 // import MuiSwitch from "./components/navbar/MuiSwitch";
 // import MuiRating from "./components/navbar/MuiRating";
 // import MuiAutoComplete from "./components/navbar/MuiAutoComplete";
-import MuiBox from "./components/navbar/MuiBox";
+// import MuiBox from "./components/navbar/MuiBox";
+import MuiPaper from "./components/navbar/MuiPaper";
 
 const App = () => {
   return (
@@ -22,8 +23,9 @@ const App = () => {
       {/* <MuiSwitch /> */}
       {/* <MuiRating /> */}
       {/* <MuiAutoComplete /> */}
-      <MuiBox />
+      {/* <MuiBox /> */}
       {/* <MuiPaper /> */}
+      <MuiPaper />
     </div>
   );
 };
