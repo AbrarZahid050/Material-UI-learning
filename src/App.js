@@ -10,7 +10,8 @@ import "./App.css";
 // import MuiRating from "./components/navbar/MuiRating";
 // import MuiAutoComplete from "./components/navbar/MuiAutoComplete";
 // import MuiBox from "./components/navbar/MuiBox";
-import MuiPaper from "./components/navbar/MuiPaper";
+// import MuiPaper from "./components/navbar/MuiPaper";
+import MuiAccordin from "./components/navbar/MuiAccordin";
 
 const App = () => {
   return (
@@ -25,7 +26,8 @@ const App = () => {
       {/* <MuiAutoComplete /> */}
       {/* <MuiBox /> */}
       {/* <MuiPaper /> */}
-      <MuiPaper />
+      {/* <MuiPaper /> */}
+      <MuiAccordin />
     </div>
   );
 };
