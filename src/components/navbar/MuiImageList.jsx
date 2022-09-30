@@ -1,10 +1,37 @@
-import { Container, ImageList, ImageListItem, Stack } from "@mui/material";
+import {
+  Container,
+  ImageList,
+  ImageListItem,
+  Stack,
+  Box,
+  ImageListItemBar,
+} from "@mui/material";
 
 const MuiImageList = () => {
   return (
     <Container>
       <Stack spacing={4} marginTop={4}>
-        <ImageList sx={{ width: 500, height: 164 }} cols={3} rowHeight={164}>
+        <ImageList sx={{ width: 500, height: 400 }} cols={3} rowHeight={164}>
+          {itemData.map((image) => {
+            return (
+              <ImageListItem key={image.title}>
+                <img
+                  src={`${image.img}?w=164&h=164fit=crop&auto=format&dpr=2`}
+                  alt={image.title}
+                  loading="lazy"
+                />
+                <ImageListItemBar title={image.title} />
+              </ImageListItem>
+            );
+          })}
+        </ImageList>
+
+        <ImageList
+          sx={{ width: 500, height: 400 }}
+          variant="woven"
+          cols={3}
+          gap={3}
+        >
           {itemData.map((image) => {
             return (
               <ImageListItem key={image.title}>
@@ -17,6 +44,25 @@ const MuiImageList = () => {
             );
           })}
         </ImageList>
+
+        <Box
+          marginTop={2}
+          sx={{ width: 500, height: 400, overflowY: "scroll" }}
+        >
+          <ImageList variant="masonry" cols={3} gap={8}>
+            {itemData.map((image) => {
+              return (
+                <ImageListItem key={image.title}>
+                  <img
+                    src={`${image.img}?w=248&fit=crop&auto=format&dpr=2`}
+                    alt={image.title}
+                    loading="lazy"
+                  />
+                </ImageListItem>
+              );
+            })}
+          </ImageList>
+        </Box>
       </Stack>
     </Container>
   );
