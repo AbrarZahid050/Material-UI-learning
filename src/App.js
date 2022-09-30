@@ -12,7 +12,8 @@ import "./App.css";
 // import MuiBox from "./components/navbar/MuiBox";
 // import MuiPaper from "./components/navbar/MuiPaper";
 // import MuiAccordin from "./components/navbar/MuiAccordin";
-import MuiImageList from "./components/navbar/MuiImageList";
+// import MuiImageList from "./components/navbar/MuiImageList";
+import MuiAppbar from "./components/navbar/MuiAppbar";
 
 const App = () => {
   return (
@@ -29,7 +30,8 @@ const App = () => {
       {/* <MuiPaper /> */}
       {/* <MuiPaper /> */}
       {/* <MuiAccordin /> */}
-      <MuiImageList />
+      {/* <MuiImageList /> */}
+      <MuiAppbar />
     </div>
   );
 };
