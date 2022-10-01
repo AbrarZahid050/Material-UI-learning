@@ -1,5 +1,9 @@
 import { useState } from "react";
-import { CatchingPokemon } from "@mui/icons-material";
+import {
+  CatchingPokemon,
+  KeyboardArrowDown,
+  KeyboardArrowUp,
+} from "@mui/icons-material";
 import {
   AppBar,
   Button,
@@ -14,6 +18,7 @@ import {
 const MuiAppbar = () => {
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
+  console.log(`anchorEl: ${anchorEl}`, `open: ${open}`);
 
   const clickHandler = (event) => {
     setAnchorEl(event.currentTarget);
@@ -24,7 +29,7 @@ const MuiAppbar = () => {
   };
 
   return (
-    <AppBar>
+    <AppBar sx={{ background: "#242424" }}>
       <Toolbar>
         <IconButton size="large" edge="start" aria-label="logo" color="inherit">
           <CatchingPokemon />
@@ -39,9 +44,10 @@ const MuiAppbar = () => {
             color="inherit"
             id="resources-button"
             onClick={clickHandler}
-            aria-controls={open ? "resources-menu" : null}
-            aria-haspopup="true"
-            aria-expanded={open ? "true" : null}
+            // aria-controls={open ? "resources-menu" : null}
+            // aria-haspopup="true"
+            // aria-expanded={open ? "true" : null}
+            endIcon={!anchorEl ? <KeyboardArrowDown /> : <KeyboardArrowUp />}
           >
             Resources
           </Button>
@@ -51,8 +57,16 @@ const MuiAppbar = () => {
           id="resources-menu"
           anchorEl={anchorEl}
           open={open}
-          MenuListProps={{ "aria-labelledby": "resources-button" }}
+          // MenuListProps={{ "aria-labelledby": "resources-button" }}
           onClose={closeHandler}
+          anchorOrigin={{
+            vertical: "bottom",
+            horizontal: "right",
+          }}
+          transformOrigin={{
+            vertical: "top",
+            horizontal: "right",
+          }}
         >
           <MenuItem>Blog</MenuItem>
           <MenuItem>Podcast</MenuItem>
