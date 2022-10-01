@@ -21,12 +21,6 @@ const Select = () => {
           fullWidth
           value={countries}
           onChange={selectHandler}
-          SelectProps={{
-            multiple: true,
-          }}
-          size="small"
-          helperText="Please select your country."
-          error={countries.length === 0 ? true : false}
         >
           <MenuItem value="PK">Pakistan</MenuItem>
           <MenuItem value="US">USA</MenuItem>
