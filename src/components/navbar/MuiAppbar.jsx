@@ -18,7 +18,7 @@ import {
 const MuiAppbar = () => {
   const [anchorEl, setAnchorEl] = useState(null);
   const open = Boolean(anchorEl);
-  console.log(`anchorEl: ${anchorEl}`, `open: ${open}`);
+  // console.log(`anchorEl: ${anchorEl}`, `open: ${open}`);
 
   const clickHandler = (event) => {
     setAnchorEl(event.currentTarget);
@@ -29,7 +29,7 @@ const MuiAppbar = () => {
   };
 
   return (
-    <AppBar sx={{ background: "#242424" }}>
+    <AppBar sx={{ background: "#242424" }} position="static">
       <Toolbar>
         <IconButton size="large" edge="start" aria-label="logo" color="inherit">
           <CatchingPokemon />
