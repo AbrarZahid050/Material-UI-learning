@@ -27,7 +27,7 @@ const MuiDrawer = () => {
       >
         <Box p={2} textAlign="center" role="presentation" width="500px">
           <Typography variant="h6" component="div">
-            Typography
+            Side Panel
           </Typography>
         </Box>
       </Drawer>

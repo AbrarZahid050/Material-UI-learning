@@ -17,6 +17,7 @@ import "./App.css";
 import MuiAppbar from "./components/navbar/MuiAppbar";
 import MuiBreadcrumbs from "./components/navbar/MuiBreadcrumbs";
 import MuiDrawer from "./components/navbar/MuiDrawer";
+import { MuiSpeedDial } from "./components/navbar/MuiSpeedDial";
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
       <MuiAppbar />
       <MuiBreadcrumbs />
       <MuiDrawer />
+      <MuiSpeedDial />
     </div>
   );
 };
