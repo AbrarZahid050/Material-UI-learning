@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import { MuiBadge } from "./components/navbar/MuiBadge";
 
 // import Why from "./components/navbar/Navbar";
 // import TextField from "./components/navbar/TextField";
@@ -14,10 +15,15 @@ import "./App.css";
 // import MuiAccordin from "./components/navbar/MuiAccordin";
 // import MuiImageList from "./components/navbar/MuiImageList";
 // import MuiLink from "./components/navbar/MuiLink";
+// import { MuiAvatar } from "./components/navbar/MuiAvatar";
+
+/* <-----------------------Run the below code in one instance---------------------->
 import MuiAppbar from "./components/navbar/MuiAppbar";
+import { MuiBottomNavigation } from "./components/navbar/MuiBottomNavigation";
 import MuiBreadcrumbs from "./components/navbar/MuiBreadcrumbs";
 import MuiDrawer from "./components/navbar/MuiDrawer";
 import { MuiSpeedDial } from "./components/navbar/MuiSpeedDial";
+<---------------------------------------------------------------------------------->*/
 
 const App = () => {
   return (
@@ -36,10 +42,13 @@ const App = () => {
       {/* <MuiAccordin /> */}
       {/* <MuiImageList /> */}
       {/* <MuiLink /> */}
-      <MuiAppbar />
-      <MuiBreadcrumbs />
-      <MuiDrawer />
-      <MuiSpeedDial />
+      {/* <MuiAppbar /> */}
+      {/* <MuiBreadcrumbs /> */}
+      {/* <MuiDrawer /> */}
+      {/* <MuiSpeedDial /> */}
+      {/* <MuiBottomNavigation /> */}
+      {/* <MuiAvatar /> */}
+      <MuiBadge />
     </div>
   );
 };

@@ -8,9 +8,9 @@ export const MuiSpeedDial = () => {
       sx={{ position: "absolute", bottom: 16, right: 16 }}
       icon={<SpeedDialIcon />}
     >
-      <SpeedDialAction icon={<CopyAll />} tooltipTitle="Copy" />
-      <SpeedDialAction icon={<Print />} tooltipTitle="Print" />
-      <SpeedDialAction icon={<Share />} tooltipTitle="Share" />
+      <SpeedDialAction icon={<CopyAll />} tooltipTitle="Copy" tooltipOpen />
+      <SpeedDialAction icon={<Print />} tooltipTitle="Print" tooltipOpen />
+      <SpeedDialAction icon={<Share />} tooltipTitle="Share" tooltipOpen />
     </SpeedDial>
   );
 };
