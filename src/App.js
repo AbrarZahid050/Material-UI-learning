@@ -16,6 +16,7 @@ import "./App.css";
 // import MuiLink from "./components/navbar/MuiLink";
 import { MuiAvatar } from "./components/navbar/MuiAvatar";
 import { MuiBadge } from "./components/navbar/MuiBadge";
+import { MuiChip } from "./components/navbar/MuiChip";
 import { MuiList } from "./components/navbar/MuiList";
 
 /* <-----------------------Run the below code in one instance---------------------->
@@ -51,6 +52,7 @@ const App = () => {
       <MuiAvatar />
       <MuiBadge />
       <MuiList />
+      <MuiChip />
     </div>
   );
 };
