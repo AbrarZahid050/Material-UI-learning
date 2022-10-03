@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-import { MuiBadge } from "./components/navbar/MuiBadge";
 
 // import Why from "./components/navbar/Navbar";
 // import TextField from "./components/navbar/TextField";
@@ -15,7 +14,9 @@ import { MuiBadge } from "./components/navbar/MuiBadge";
 // import MuiAccordin from "./components/navbar/MuiAccordin";
 // import MuiImageList from "./components/navbar/MuiImageList";
 // import MuiLink from "./components/navbar/MuiLink";
-// import { MuiAvatar } from "./components/navbar/MuiAvatar";
+import { MuiAvatar } from "./components/navbar/MuiAvatar";
+import { MuiBadge } from "./components/navbar/MuiBadge";
+import { MuiList } from "./components/navbar/MuiList";
 
 /* <-----------------------Run the below code in one instance---------------------->
 import MuiAppbar from "./components/navbar/MuiAppbar";
@@ -47,8 +48,9 @@ const App = () => {
       {/* <MuiDrawer /> */}
       {/* <MuiSpeedDial /> */}
       {/* <MuiBottomNavigation /> */}
-      {/* <MuiAvatar /> */}
+      <MuiAvatar />
       <MuiBadge />
+      <MuiList />
     </div>
   );
 };

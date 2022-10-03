@@ -28,7 +28,7 @@ export const MuiAvatar = () => {
           <AvatarGroup max={10}>
             <Avatar sx={{ bgcolor: "primary.light" }}>BA</Avatar>
             <Avatar sx={{ bgcolor: "success.light" }}>CK</Avatar>
-            <Badge variant="dot" color="primary">
+            <Badge variant="dot" color="success" overlap="circular">
               <Avatar
                 src="https://randomuser.me/api/portraits/women/72.jpg"
                 alt="userPic"
