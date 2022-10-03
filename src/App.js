@@ -19,6 +19,7 @@ import { MuiBadge } from "./components/navbar/MuiBadge";
 import { MuiChip } from "./components/navbar/MuiChip";
 import { MuiList } from "./components/navbar/MuiList";
 import { MuiTooltip } from "./components/navbar/MuiTooltip";
+import { MuiAlert } from "./components/navbar/MuiAlert";
 
 /* <-----------------------Run the below code in one instance---------------------->
 import MuiAppbar from "./components/navbar/MuiAppbar";
@@ -55,6 +56,7 @@ const App = () => {
       <MuiList />
       <MuiChip />
       <MuiTooltip />
+      <MuiAlert />
     </div>
   );
 };
