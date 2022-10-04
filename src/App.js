@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 
+// import { Testing } from "./components/navbar/Testing";
 // import Why from "./components/navbar/Navbar";
 // import TextField from "./components/navbar/TextField";
 // import Select from "./components/navbar/Select";
@@ -14,12 +15,12 @@ import "./App.css";
 // import MuiAccordin from "./components/navbar/MuiAccordin";
 // import MuiImageList from "./components/navbar/MuiImageList";
 // import MuiLink from "./components/navbar/MuiLink";
-import { MuiAvatar } from "./components/navbar/MuiAvatar";
-import { MuiBadge } from "./components/navbar/MuiBadge";
-import { MuiChip } from "./components/navbar/MuiChip";
-import { MuiList } from "./components/navbar/MuiList";
-import { MuiTooltip } from "./components/navbar/MuiTooltip";
-import { MuiAlert } from "./components/navbar/MuiAlert";
+// import { MuiAvatar } from "./components/navbar/MuiAvatar";
+// import { MuiBadge } from "./components/navbar/MuiBadge";
+// import { MuiChip } from "./components/navbar/MuiChip";
+// import { MuiList } from "./components/navbar/MuiList";
+// import { MuiTooltip } from "./components/navbar/MuiTooltip";
+// import { MuiAlert } from "./components/navbar/MuiAlert";
 
 /* <-----------------------Run the below code in one instance---------------------->
 import MuiAppbar from "./components/navbar/MuiAppbar";
@@ -51,12 +52,13 @@ const App = () => {
       {/* <MuiDrawer /> */}
       {/* <MuiSpeedDial /> */}
       {/* <MuiBottomNavigation /> */}
-      <MuiAvatar />
-      <MuiBadge />
-      <MuiList />
-      <MuiChip />
-      <MuiTooltip />
-      <MuiAlert />
+      {/* <MuiAvatar /> */}
+      {/* <MuiBadge /> */}
+      {/* <MuiList /> */}
+      {/* <MuiChip /> */}
+      {/* <MuiTooltip /> */}
+      {/* <MuiAlert /> */}
+      {/* <Testing /> */}
     </div>
   );
 };
