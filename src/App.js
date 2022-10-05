@@ -1,8 +1,7 @@
 import React from "react";
 import "./App.css";
-import { MuiSnackbar } from "./components/navbar/MuiSnackbar";
+import { MuiDialog } from "./components/navbar/MuiDialog";
 
-// import { Testing } from "./components/navbar/Testing";
 // import Why from "./components/navbar/Navbar";
 // import TextField from "./components/navbar/TextField";
 // import Select from "./components/navbar/Select";
@@ -22,6 +21,7 @@ import { MuiSnackbar } from "./components/navbar/MuiSnackbar";
 // import { MuiList } from "./components/navbar/MuiList";
 // import { MuiTooltip } from "./components/navbar/MuiTooltip";
 // import { MuiAlert } from "./components/navbar/MuiAlert";
+// import { MuiSnackbar } from "./components/navbar/MuiSnackbar";
 
 /* <-----------------------Run the below code in one instance---------------------->
 import MuiAppbar from "./components/navbar/MuiAppbar";
@@ -60,7 +60,8 @@ const App = () => {
       {/* <MuiTooltip /> */}
       {/* <MuiAlert /> */}
       {/* <Testing /> */}
-      <MuiSnackbar />
+      {/* <MuiSnackbar /> */}
+      <MuiDialog />
     </div>
   );
 };
