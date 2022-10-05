@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import { MuiSnackbar } from "./components/navbar/MuiSnackbar";
 
 // import { Testing } from "./components/navbar/Testing";
 // import Why from "./components/navbar/Navbar";
@@ -59,6 +60,7 @@ const App = () => {
       {/* <MuiTooltip /> */}
       {/* <MuiAlert /> */}
       {/* <Testing /> */}
+      <MuiSnackbar />
     </div>
   );
 };
