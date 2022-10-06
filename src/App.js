@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { MuiSkeleton } from "./components/navbar/MuiSkeleton";
+import { MuiLoadingBtn } from "./components/navbar/MuiLoadingBtn";
 
 // import Why from "./components/navbar/Navbar";
 // import TextField from "./components/navbar/TextField";
@@ -24,6 +24,7 @@ import { MuiSkeleton } from "./components/navbar/MuiSkeleton";
 // import { MuiSnackbar } from "./components/navbar/MuiSnackbar";
 // import { MuiDialog } from "./components/navbar/MuiDialog";
 // import { MuiProgress } from "./components/navbar/MuiProgress";
+// import { MuiSkeleton } from "./components/navbar/MuiSkeleton";
 
 /* <-----------------------Run the below code in one instance---------------------->
 import MuiAppbar from "./components/navbar/MuiAppbar";
@@ -65,7 +66,8 @@ const App = () => {
       {/* <MuiSnackbar /> */}
       {/* <MuiDialog /> */}
       {/* <MuiProgress /> */}
-      <MuiSkeleton />
+      {/* <MuiSkeleton /> */}
+      <MuiLoadingBtn />
     </div>
   );
 };
