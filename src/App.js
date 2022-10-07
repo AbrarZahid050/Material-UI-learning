@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
-import { MuiLoadingBtn } from "./components/navbar/MuiLoadingBtn";
+import { LocalizationProvider } from "@mui/x-date-pickers";
+import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
+import { MuiDataTime } from "./components/navbar/MuiDataTime";
 
 // import Why from "./components/navbar/Navbar";
 // import TextField from "./components/navbar/TextField";
@@ -25,6 +27,7 @@ import { MuiLoadingBtn } from "./components/navbar/MuiLoadingBtn";
 // import { MuiDialog } from "./components/navbar/MuiDialog";
 // import { MuiProgress } from "./components/navbar/MuiProgress";
 // import { MuiSkeleton } from "./components/navbar/MuiSkeleton";
+// import { MuiLoadingBtn } from "./components/navbar/MuiLoadingBtn";
 
 /* <-----------------------Run the below code in one instance---------------------->
 import MuiAppbar from "./components/navbar/MuiAppbar";
@@ -36,39 +39,42 @@ import { MuiSpeedDial } from "./components/navbar/MuiSpeedDial";
 
 const App = () => {
   return (
-    <div>
-      {/* <Why /> */}
-      {/* <TextField /> */}
-      {/* <Select /> */}
-      {/* <MuiRadioButton /> */}
-      {/* <MuiCheckbox /> */}
-      {/* <MuiSwitch /> */}
-      {/* <MuiRating /> */}
-      {/* <MuiAutoComplete /> */}
-      {/* <MuiBox /> */}
-      {/* <MuiPaper /> */}
-      {/* <MuiPaper /> */}
-      {/* <MuiAccordin /> */}
-      {/* <MuiImageList /> */}
-      {/* <MuiLink /> */}
-      {/* <MuiAppbar /> */}
-      {/* <MuiBreadcrumbs /> */}
-      {/* <MuiDrawer /> */}
-      {/* <MuiSpeedDial /> */}
-      {/* <MuiBottomNavigation /> */}
-      {/* <MuiAvatar /> */}
-      {/* <MuiBadge /> */}
-      {/* <MuiList /> */}
-      {/* <MuiChip /> */}
-      {/* <MuiTooltip /> */}
-      {/* <MuiAlert /> */}
-      {/* <Testing /> */}
-      {/* <MuiSnackbar /> */}
-      {/* <MuiDialog /> */}
-      {/* <MuiProgress /> */}
-      {/* <MuiSkeleton /> */}
-      <MuiLoadingBtn />
-    </div>
+    <LocalizationProvider dateAdapter={AdapterDateFns}>
+      <div>
+        {/* <Why /> */}
+        {/* <TextField /> */}
+        {/* <Select /> */}
+        {/* <MuiRadioButton /> */}
+        {/* <MuiCheckbox /> */}
+        {/* <MuiSwitch /> */}
+        {/* <MuiRating /> */}
+        {/* <MuiAutoComplete /> */}
+        {/* <MuiBox /> */}
+        {/* <MuiPaper /> */}
+        {/* <MuiPaper /> */}
+        {/* <MuiAccordin /> */}
+        {/* <MuiImageList /> */}
+        {/* <MuiLink /> */}
+        {/* <MuiAppbar /> */}
+        {/* <MuiBreadcrumbs /> */}
+        {/* <MuiDrawer /> */}
+        {/* <MuiSpeedDial /> */}
+        {/* <MuiBottomNavigation /> */}
+        {/* <MuiAvatar /> */}
+        {/* <MuiBadge /> */}
+        {/* <MuiList /> */}
+        {/* <MuiChip /> */}
+        {/* <MuiTooltip /> */}
+        {/* <MuiAlert /> */}
+        {/* <Testing /> */}
+        {/* <MuiSnackbar /> */}
+        {/* <MuiDialog /> */}
+        {/* <MuiProgress /> */}
+        {/* <MuiSkeleton /> */}
+        {/* <MuiLoadingBtn /> */}
+        <MuiDataTime />
+      </div>
+    </LocalizationProvider>
   );
 };
 
