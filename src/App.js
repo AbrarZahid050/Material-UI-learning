@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { MuiTab } from "./components/navbar/MuiTab";
+import { Main } from "./components/mainScreen/Main";
 
 /*<--------------------------------------Date & Time component-------------------------->
 import { LocalizationProvider } from "@mui/x-date-pickers";
@@ -32,6 +32,7 @@ import { MuiDataTime } from "./components/navbar/MuiDataTime";
 // import { MuiProgress } from "./components/navbar/MuiProgress";
 // import { MuiSkeleton } from "./components/navbar/MuiSkeleton";
 // import { MuiLoadingBtn } from "./components/navbar/MuiLoadingBtn";
+// import { MuiTab } from "./components/navbar/MuiTab";
 
 /* <-----------------------Run the below code in one instance---------------------->
 import MuiAppbar from "./components/navbar/MuiAppbar";
@@ -43,9 +44,12 @@ import { MuiSpeedDial } from "./components/navbar/MuiSpeedDial";
 
 const App = () => {
   return (
-    // <LocalizationProvider dateAdapter={AdapterDateFns}>
-    <div>
-      {/* <Why /> */}
+    <>
+      <Main />
+
+      {/* <LocalizationProvider dateAdapter={AdapterDateFns}> */}
+      {/* <div> */}
+      {/* // <Why /> */}
       {/* <TextField /> */}
       {/* <Select /> */}
       {/* <MuiRadioButton /> */}
@@ -77,9 +81,10 @@ const App = () => {
       {/* <MuiSkeleton /> */}
       {/* <MuiLoadingBtn /> */}
       {/* <MuiDataTime /> */}
-      <MuiTab />
-    </div>
-    // </LocalizationProvider>
+      {/* <MuiTab /> */}
+      {/* </div> */}
+      {/* </LocalizationProvider> */}
+    </>
   );
 };
 
