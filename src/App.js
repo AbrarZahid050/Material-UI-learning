@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
 import { Main } from "./components/mainScreen/Main";
+import R3f from "./components/React3Fiber/R3f";
+import { Skills } from "./components/Skills/Skills";
 
 /*<--------------------------------------Date & Time component-------------------------->
 import { LocalizationProvider } from "@mui/x-date-pickers";
@@ -46,6 +48,12 @@ const App = () => {
   return (
     <>
       <Main />
+      <br />
+      <br />
+      {/* <R3f /> */}
+      <Skills />
+      <br />
+      <br />
 
       {/* <LocalizationProvider dateAdapter={AdapterDateFns}> */}
       {/* <div> */}
